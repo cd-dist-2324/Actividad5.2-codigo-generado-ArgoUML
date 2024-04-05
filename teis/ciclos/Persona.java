@@ -1,5 +1,8 @@
 
+package teis.ciclos;
+
 import java.util.Date;
+
 
 public abstract class Persona implements MyComparable, Comparable<Persona> {
 
