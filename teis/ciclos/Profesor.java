@@ -5,7 +5,7 @@ import java.util.Vector;
 
 public class Profesor extends Persona {
 
-  public String nrp;
+  private String nrp;
 
     /**
    * 
@@ -14,11 +14,11 @@ public class Profesor extends Persona {
   private Vector<Modulo>  modulos;
 
   public String getNrp() {
-  return null;
+  return this.nrp;
   }
 
   public String setNrp(String nrp) {
-  return null;
+  return this.nrp= nrp;
   }
 
   public Profesor() {
