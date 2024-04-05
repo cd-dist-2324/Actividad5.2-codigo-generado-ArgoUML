@@ -1,7 +1,7 @@
-package teis.ciclos;
+
 
 public interface MyComparable {
 
-  public void comparar(Persona p);
+  public int comparar(Persona p);
 
 }

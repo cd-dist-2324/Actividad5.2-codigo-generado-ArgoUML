@@ -1,28 +1,31 @@
-package teis.ciclos;
+
 
 import java.util.Vector;
 
 public class Modulo {
 
-  public String codigo;
+  private String codigo;
 
-    public Profesor docente;
-    /**
+  private Profesor docente;
+  /**
    * 
-   * @element-type Alumno
+   * @element-type Matricula
    */
-  private Vector  alumnos;
-    public Vector  Matricula;
-    private Examen examen;
+  private Vector<Matricula> matriculas;
+ 
+  private Examen examen;
+
+
 
   public Modulo() {
   }
 
-  public Vector getAlumnos() {
-  return null;
+  public Vector<Matricula> getMatriculas() {
+    return this.matriculas;
   }
 
-  public void setAlumnos(Vector alumnos) {
+  public void setMatriculas(Vector<Matricula> matriculas) {
+    this.matriculas = matriculas;
   }
 
 }

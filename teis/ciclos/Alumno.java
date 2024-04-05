@@ -4,27 +4,37 @@ import java.util.Vector;
 
 public class Alumno extends Persona {
 
-  public Float notaMedia;
+  private Float notaMedia;
 
-    /**
+
+
+  /**
    * 
-   * @element-type Modulo
+   * @element-type Matricula
    */
-  public Vector  modulos;
-    public Vector  Matricula;
+  
+  private Vector<Matricula> matriculas;
 
   public Alumno() {
+    super();
   }
 
   public Float getNotaMedia() {
-  return null;
+    return this.notaMedia;
+  }
+  //generado en VS Code
+  public void setNotaMedia(Float notaMedia) {
+    this.notaMedia = notaMedia;
   }
 
-  public Vector getModulos() {
-  return null;
+  public Vector<Matricula> getMatriculas() {
+    return matriculas;
   }
 
-  public void setAlumnos(Vector modulos) {
+  public void setMatriculas(Vector<Matricula> matriculas) {
+    this.matriculas = matriculas;
   }
+
+ 
 
 }

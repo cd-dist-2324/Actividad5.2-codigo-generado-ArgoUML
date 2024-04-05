@@ -1,7 +1,7 @@
-package teis.ciclos;
+
 
 import java.util.Vector;
-import String;
+
 
 public class Profesor extends Persona {
 
@@ -11,7 +11,7 @@ public class Profesor extends Persona {
    * 
    * @element-type Modulo
    */
-  public Vector  modulos;
+  private Vector<Modulo>  modulos;
 
   public String getNrp() {
   return null;
@@ -22,6 +22,8 @@ public class Profesor extends Persona {
   }
 
   public Profesor() {
+    super();
+
   }
 
 }

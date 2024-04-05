@@ -1,5 +1,7 @@
-package teis.ciclos;
 
+
+import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Vector;
 
 public class Examen {
@@ -9,6 +11,6 @@ public class Examen {
    * 
    * @element-type Pregunta
    */
-  public Vector  examen;
+   private HashSet<Pregunta> preguntas;
 
 }
